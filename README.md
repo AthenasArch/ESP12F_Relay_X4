@@ -40,4 +40,6 @@ Redes Sociais:
     - Na pasta "Codigos": Estão lozalizados apenas os codigos de exemplo utilizando a IDE do Arduino.
 
 
+![pinout](https://user-images.githubusercontent.com/79209419/110700034-3f4a1d80-81ce-11eb-9f71-de88c78f67f9.png)
+
 
