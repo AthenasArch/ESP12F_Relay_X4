@@ -41,6 +41,6 @@ Redes Sociais:
 
  # Descrição do hardware - ESP8266 12F - Relay X4 - PINOUT:
 
-      ![pinout](https://user-images.githubusercontent.com/79209419/110700034-3f4a1d80-81ce-11eb-9f71-de88c78f67f9.png)
+   ![pinout](https://user-images.githubusercontent.com/79209419/110700034-3f4a1d80-81ce-11eb-9f71-de88c78f67f9.png)
 
 By: Leonardo HIlgemberg Lopes.
