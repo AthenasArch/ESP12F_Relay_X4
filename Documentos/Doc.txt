@@ -1,0 +1,1 @@
+Aqui devem estar todos os arquivos auxiliares no entendimento do Hardware, Software e Firmware.
