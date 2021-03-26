@@ -43,4 +43,25 @@ Redes Sociais:
 
    ![pinout](https://user-images.githubusercontent.com/79209419/110700034-3f4a1d80-81ce-11eb-9f71-de88c78f67f9.png)
 
+# GRAVAÇÃO DA PLACA COM "FTDI":
+
+	1) FTDI Pinos 	-----------------------------	ESP12F_RELAY_X1 Pinos:
+	   - GND	-----------------------------	GND
+	   - VCC	-----------------------------	5V
+	   - TX		-----------------------------	RX
+	   - RX		-----------------------------	TX
+
+![image](https://raw.githubusercontent.com/AthenasArch/ESP12F_Relay_X1/main/Documentos/GravarComFTDI.png)
+
+# GRAVAÇÃO DA PLACA COM "ARDUINO UNO":
+
+OBS: Para gravar com o Arduino uno, é necessário remover o microcontrolador ATMEGA328 da placa.
+
+	1) UNO Pinos 	-----------------------------	ESP12F_RELAY_X1 Pinos:
+	   - GND	-----------------------------	GND
+	   - 5V		-----------------------------	5V
+	   - TX		-----------------------------	RX
+	   - RX		-----------------------------	TX
+![image](https://raw.githubusercontent.com/AthenasArch/ESP12F_Relay_X1/main/Documentos/GravarComUno.png)
+
 By: Leonardo HIlgemberg Lopes.
