@@ -1,13 +1,13 @@
 /**
- * @brief Arquivo exemplo de utilizacao de rele com ESP8266.
+ * @brief Arquivo exemplo de utilizacao da placa rele 4x com ESP8266 - Arduino IDE.
  * @name 
  * @version | 1.0                   |
- * @date    | 09/03/2021            |
+ * @date    | 24/03/2021            |
  * @author  | athenasarch@gmail.com |
  * @file    | main.cpp              |
  **/
 
-#include <Arduino.h>
+#include <Arduino.h> // biblioteca padrao do arduino.
 
 #define TOGGLE_DATA(DATA) ((DATA)?DATA=0:DATA=1) // utilizado para inverter estado de variavel.
 
@@ -17,11 +17,12 @@
 #define PIN_RELAY_4 13  // pino que esta localizado o Rele 4.
 #define QTTY_RELAYS 4   // Quantidade de reles disponievis...
 
-#define RELAY_ON    1
-#define RELAY_OFF   0
+#define RELAY_ON    1   // constante informando que o rele esta ativo.
+#define RELAY_OFF   0   // constante informando que o rele esta desativo.
 
-uint8_t cntRelays = 0;
+uint8_t cntRelays = 0;  // variavel de contador.
 
+void initPinsRelay( void );
 void timerRelay( unsigned long timeInterval ); // inicializa funcao de intervalo do rele.
 
 /**
@@ -43,15 +44,26 @@ void setup() {
  **/
 void loop() {
 
-    timerRelay(1000);
+    timerRelay(1000); // chama a funcao de controle dos reles.
 }
 
 /**
  * @brief Ativa e desativa o rele a cada intervalo de tempo.
  * 
- * @param
+ * @param timeInterval tempo de acionamento entre os reles.
  * 
- * @return 
+ * @return void
+**/
+void initPinsRelay( void ){
+
+}
+
+/**
+ * @brief Ativa e desativa o rele a cada intervalo de tempo.
+ * 
+ * @param timeInterval tempo de acionamento entre os reles.
+ * 
+ * @return void
 **/
 void timerRelay( unsigned long timeInterval ){
 
