@@ -51,7 +51,7 @@ Redes Sociais:
 	   - TX		-----------------------------	RX
 	   - RX		-----------------------------	TX
 
-![image](https://raw.githubusercontent.com/AthenasArch/ESP12F_Relay_X1/main/Documentos/GravarComFTDI.png)
+![image](https://github.com/AthenasArch/ESP12F_Relay_X4/blob/main/Documentos/GravarComFTDI.png?raw=true)
 
 # GRAVAÇÃO DA PLACA COM "ARDUINO UNO":
 
@@ -62,6 +62,6 @@ OBS: Para gravar com o Arduino uno, é necessário remover o microcontrolador AT
 	   - 5V		-----------------------------	5V
 	   - TX		-----------------------------	RX
 	   - RX		-----------------------------	TX
-![image](https://raw.githubusercontent.com/AthenasArch/ESP12F_Relay_X1/main/Documentos/GravarComUno.png)
+![image](https://github.com/AthenasArch/ESP12F_Relay_X4/blob/main/Documentos/GravarComUno.png?raw=true)
 
 By: Leonardo HIlgemberg Lopes.
